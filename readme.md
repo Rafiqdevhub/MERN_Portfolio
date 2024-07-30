@@ -1,10 +1,10 @@
-# MERN Stack Portfolio
+# MERN_Portfolio
 
 This is a MERN (MongoDB, Express, React, Node.js) stack portfolio project. It showcases my skills in full-stack web development using modern technologies.
 
 ## Table of Contents
 
-- [MERN Stack Portfolio](#mern-stack-portfolio)
+- [MERN\_Portfolio](#mern_portfolio)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -58,7 +58,7 @@ This project is a portfolio website built using the MERN stack. It includes vari
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mern-portfolio.git
-   cd mern-portfolio
+   git clone https://github.com/Rafiqdevhub/MERN_Portfolio.git
+   cd MERN_Portfolio
    ```
 2. `for frontend and backend run the command npm run dev`
