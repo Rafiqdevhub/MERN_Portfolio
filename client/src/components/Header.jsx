@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Link, Events, scrollSpy } from "react-scroll";
 import { CgMenuRight } from "react-icons/cg";
 import { UserData } from "../data/UserData";
-import logo from "../Assets/images/RLogo.png";
 
 const Header = () => {
   const [isScrolling, setisScrolling] = useState(false);
@@ -40,13 +39,6 @@ const Header = () => {
       className={`fixed top-0 z-50 flex w-full items-center justify-between text-base transition-all sm:px-4 lg:px-28 lg:pt-2
       ${isScrolling ? "sticky" : ""}`}
     >
-      <div className="cursor-none">
-        <img
-          className="h-[50px] w-[50px] bg-cover bg-no-repeat"
-          src={logo}
-          alt="logo"
-        />
-      </div>
       <nav className="hidden lg:block">
         <div className="cursor-pointer items-center space-x-4 sm:flex sm:flex-col sm:gap-4 lg:flex lg:flex-row lg:gap-6">
           <Link
