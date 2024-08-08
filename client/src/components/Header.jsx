@@ -114,24 +114,6 @@ const Header = () => {
               Contact
             </p>
           </Link>
-          <Link
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-250}
-            duration={500}
-            to="Message-section"
-          >
-            <p
-              className={
-                activeSection === "Message-section"
-                  ? "active"
-                  : "text-white hover:text-gray-900"
-              }
-            >
-              Message
-            </p>
-          </Link>
           <div>
             <button
               onClick={() => {
@@ -232,25 +214,6 @@ const Header = () => {
                 onClick={toggleMobileMenu}
               >
                 Contact
-              </p>
-            </Link>
-            <Link
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              to="Message-section"
-            >
-              <p
-                className={
-                  activeSection === "Contact-section"
-                    ? "active"
-                    : "text-black hover:text-gray-900"
-                }
-                onClick={toggleMobileMenu}
-              >
-                Message
               </p>
             </Link>
             <div>
